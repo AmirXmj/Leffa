@@ -1,0 +1,18 @@
+# Exclude large model checkpoints
+ckpts/
+# Node modules
+node_modules/
+# Python virtual environment
+venv/
+# Git related files
+.git/
+# Python cache
+__pycache__/
+**/*.pyc
+**/__pycache__/
+# Test outputs
+tests/results/
+# 3rd party libraries
+3rdparty/
+# Other large directories
+preprocess/ 

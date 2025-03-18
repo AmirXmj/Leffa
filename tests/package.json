@@ -1,0 +1,26 @@
+{
+    "name": "leffa-tests",
+    "version": "1.0.0",
+    "description": "Puppeteer tests for Leffa Virtual Try-On",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --forceExit",
+        "test:watch": "jest --watch",
+        "test:ci": "jest --ci --reporters=default --reporters=jest-junit"
+    },
+    "keywords": [
+        "puppeteer",
+        "testing",
+        "leffa",
+        "virtual-try-on"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "jest": "^29.7.0",
+        "jest-junit": "^16.0.0",
+        "puppeteer": "^21.9.0",
+        "pixelmatch": "^5.3.0",
+        "pngjs": "^7.0.0"
+    }
+}

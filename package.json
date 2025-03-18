@@ -1,0 +1,34 @@
+{
+    "name": "leffa",
+    "version": "1.0.0",
+    "description": "Leffa Virtual Try-On Testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test-leffa.js",
+        "test:quick": "node test-leffa.js --test-mode",
+        "download-images": "node download-test-images.js",
+        "prepare-test": "node download-test-images.js && echo 'Test images ready!'",
+        "start:test": "python simple_ui.py --test",
+        "start": "python simple_ui.py"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/franciszzj/Leffa.git"
+    },
+    "keywords": [
+        "virtual-try-on",
+        "fashion",
+        "ai",
+        "puppeteer",
+        "testing"
+    ],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/franciszzj/Leffa/issues"
+    },
+    "homepage": "https://github.com/franciszzj/Leffa#readme",
+    "dependencies": {
+        "puppeteer": "^21.9.0"
+    }
+}

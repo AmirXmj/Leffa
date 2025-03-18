@@ -1,0 +1,17 @@
+# Test results
+/results
+
+# Node modules
+/node_modules
+
+# npm debug logs
+npm-debug.log*
+
+# Coverage reports
+/coverage
+
+# Jest cache directory
+/.jest
+
+# Local Puppeteer binary
+/.local-chromium 
